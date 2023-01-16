@@ -1,0 +1,135 @@
+/******************************************
+             Common Styles 
+    ***********************************/
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+}
+.primary-btn{
+    background-color: #E02C6D;
+    border-radius: 41px;
+    color: #ffffff;
+    border: none;
+    padding: 10px 24px;
+}
+
+/******************************************
+             Header Style 
+  **************************************/
+header{
+    max-width: 1200px;
+    margin: auto;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 87px;
+}
+.nav-title{
+    font-size: 24px;
+}
+.nav-link{
+    display: flex;
+    width:463px;
+    justify-content:space-around;
+    align-items: center;
+}
+.nav-link-name{
+    font-size: 16px;
+    font-weight: 600;
+}
+.fa-magnifying-glass, .fa-cart-shopping{
+    font-size: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 50px;   
+}
+.banner-text{
+    max-width: 582px;
+}
+.banner-text h2{
+    font-size: 52px;
+    margin: 0;
+}
+.banner-text p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.banner-img{
+    background-image: url("images/circle.svg");
+}
+
+/* Body style */
+
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+.sponsor{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #b5afaf;
+    border-bottom: 1px solid #b5afaf;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 97px;
+    margin-bottom: 76px;
+}
+
+/* Popular Collection Styles */
+
+.popular-collection-title{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 50px;
+    justify-items: center;
+}
+.collection{
+    max-width: 350px;
+}
+.collection-info{
+    padding: 20px 25px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+.collection h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+.collection h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+.fa-star.filled , .fa-star-half-stroke{
+    color:#FB8200;
+    font-size: 11px;
+}
+.rating{
+    font-size: 14px;
+    color: #787885;
+}
+.collection p{
+    font-size: 14px;
+    color: #787885;
+    margin: 0;
+}
+.see-more{
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: end;
+    margin-top: 50px;
+    margin-right: 30px;
+}
